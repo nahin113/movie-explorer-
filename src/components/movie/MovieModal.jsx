@@ -40,7 +40,7 @@ export default function MovieModal({ movie, onClose }) {
       onClick={onClose}
     >
       <div 
-        className="bg-white rounded-[24px] max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative"
+        className="bg-white rounded-[24px] max-w-2xl w-11/12 mx-auto max-h-[90vh] overflow-y-auto shadow-2xl relative"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="relative w-full h-[300px] sm:h-[400px] overflow-hidden rounded-t-[24px] bg-gray-900">
