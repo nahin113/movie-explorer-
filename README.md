@@ -21,7 +21,7 @@ Finding quick, reliable information about TV shows and movies often involves nav
 
 | Home Page Hero | Movie Search & Grid | Details Modal |
 | :---: | :---: | :---: |
-| ![Home Page Hero](./src/assets/home.png) | ![Movie Search & Grid](./src/assets/dashboard.png) | ![Details Modal](./src/assets/demo.png) |
+| ![Home Page Hero](./src/assets/readme/home.png) | ![Movie Search & Grid](./src/assets/readme/dashboard.png) | ![Details Modal](./src/assets/readme/demo.gif) |
 
 ---
 
@@ -70,5 +70,68 @@ Follow these steps to run the project on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/nahin113/movie-explorer-.git](https://github.com/nahin113/movie-explorer-.git)
+   git clone https://github.com/nahin113/movie-explorer-.git
    cd movie-explorer-
+   ```
+
+2. **Install project dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the local Vite development server:**
+   ```bash
+   npm run dev
+   ```
+
+   Open your browser and navigate to `http://localhost:5173`.
+
+---
+
+## ⚙️ Environment Variables
+**Note:** No environment variables or API keys are required to run this project. The TVMaze API is free and publicly accessible without authentication.
+
+---
+
+## 🧪 Manual Test Cases
+To verify core functionality during review or testing:
+
+**Home Navigation:**
+1. Go to `http://localhost:5173/`.
+2. Click **Explore Now** or the **Movies** link in the Navbar to navigate to `/movies`.
+
+**Search Functionality:**
+1. On the Movie Listing page, type "Girls" or "Batman" in the search bar.
+2. Verify that the card grid updates dynamically to display matching results.
+
+**Modal Overlay:**
+1. Click **See Details** on any movie card.
+2. Confirm that the detail modal appears with the plot summary, rating, and genres.
+3. Click the **✕** button or click outside the modal backdrop to close it.
+
+---
+
+## ⚠️ Known Limitations
+- **API Search Limits:** Search queries strictly depend on TVMaze API indexing; unindexed or niche movies may not return poster images.
+- **Client-Only Favorites:** No persistent user backend database currently connected.
+
+---
+
+## 🔮 Future Improvements
+- [ ] Add Watchlist / Favorites feature saved to `localStorage`.
+- [ ] Add Genre filter pills to filter results directly from the grid.
+- [ ] Implement Light/Dark mode theme toggling using DaisyUI themes.
+- [ ] Add pagination for full-catalog browsing.
+
+---
+
+## 👤 Author Information
+**Nahin Ahmed**
+- **Portfolio:** [nahinahmed.vercel.app](https://nahinahmed.vercel.app)
+- **GitHub:** [@nahin113](https://github.com/nahin113)
+- **LinkedIn:** [in/nahinahmed](https://linkedin.com/in/nahinahmed)
+
+---
+
+## 📄 License
+This project is open-source and available under the MIT License.
