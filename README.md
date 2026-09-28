@@ -21,7 +21,7 @@ Finding quick, reliable information about TV shows and movies often involves nav
 
 | Home Page Hero | Movie Search & Grid | Details Modal |
 | :---: | :---: | :---: |
-| ![Home Page Hero](./src/assets/readme/home.png) | ![Movie Search & Grid](./src/assets/readme/dashboard.png) | ![Details Modal](./src/assets/readme/demo.gif) |
+| ![Home Page Hero](./src/assets/home.png) | ![Movie Search & Grid](./src/assets/dashboard.png) | ![Details Modal](./src/assets/demo.gif) |
 
 ---
 
